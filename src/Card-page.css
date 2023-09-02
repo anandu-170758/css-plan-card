@@ -14,6 +14,24 @@
     position:relative;
 }
 .Overlay{
-   padding :3 em 2em;
+   padding :3em 2em;
    box-sizing: border-box;
+}
+.day-number{
+    font-size: 4em;
+    display: inline-block;
+    margin-right: 15px;
+}
+.date-right{
+    display: inline-block;
+}
+.day-name{
+    font-size: 2em;
+}
+.month-year{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
 }

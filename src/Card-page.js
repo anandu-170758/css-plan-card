@@ -4,9 +4,23 @@ function Card() {
   return (
     <div className='container'>
       <div className="header">
-        <h1><i>HEADER</i></h1>
+    
         <div className='Overlay'>
-            <h1>overlay</h1>
+            
+            <div className='day-number'>9</div>
+        
+                <div className='date-right'>
+
+                   <div className='day-name'>
+                       Monday
+                   </div>
+        
+                   <div className='month-year'>
+                       September 1998
+                   </div>
+
+                </div>
+            
         </div>
       </div>
     </div>
