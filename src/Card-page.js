@@ -3,8 +3,11 @@ import "./Card-page.css"
 function Card() {
   return (
     <div className='container'>
-      <div class="header">
-        <h1>hi</h1>
+      <div className="header">
+        <h1><i>HEADER</i></h1>
+        <div className='Overlay'>
+            <h1>overlay</h1>
+        </div>
       </div>
     </div>
   )
