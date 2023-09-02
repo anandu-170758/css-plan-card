@@ -1,10 +1,9 @@
-
-
+import Card from "./Card-page"
 
 function App() {
   return (
     <div >
-      <h1>CSS PLAN CARD</h1>
+     <Card/>
     </div>
   );
 }
